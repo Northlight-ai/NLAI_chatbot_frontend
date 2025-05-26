@@ -46,7 +46,7 @@ const Playground = () => {
 
     try {
       const encodedQuery = encodeURIComponent(currentInput);
-      const url = `http://localhost:10000/chat?query=${encodedQuery}`;
+      const url = `https://nlai-chatbot-backend.onrender.com/chat?query=${encodedQuery}`;
 
       console.log('Sending request to:', url);
 
